@@ -13,6 +13,7 @@ Input: nums = [1, 2, 3, 4]
 Output: false
 
 map[int]int approach:
+```go
 func hasDuplicate(nums []int) bool {
     myMap := make(map[int]int)
 
@@ -26,10 +27,10 @@ func hasDuplicate(nums []int) bool {
 
     return false
 }
-
+```
 
 map[int]bool approach (Cleaner approach):
-
+```go
 func hasDuplicate(nums []int) bool {
     myMap := make(map[int]bool)
 
@@ -43,3 +44,4 @@ func hasDuplicate(nums []int) bool {
 
     return false
 }
+```
