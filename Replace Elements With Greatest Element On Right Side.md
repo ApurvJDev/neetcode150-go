@@ -17,7 +17,7 @@ Constraints:
 1 <= arr[i] <= 100,000
 
 O (n ^ 2)
-
+```go
 func maxInt(a, b int) int {
 	if a > b {
 		return a
@@ -40,8 +40,10 @@ func replaceElements(arr []int) []int {
 
 	return arr
 }
-
+```
 O(n):
+
+```go
 func replaceElements(arr []int) []int {
 	size := len(arr)
 	res := make([]int, size)
@@ -63,3 +65,4 @@ func maxNum (a, b int) int {
 	}
 	return b
 }
+```
