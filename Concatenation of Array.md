@@ -18,7 +18,7 @@ Example 2:
 Input: nums = [22,21,20,1]
 
 Output: [22,21,20,1,22,21,20,1]
-
+```go
 func getConcatenation(nums []int) []int {
     size := len(nums)
 	result := make([]int, 2*size)
@@ -30,3 +30,4 @@ func getConcatenation(nums []int) []int {
 
 	return result
 }
+```
