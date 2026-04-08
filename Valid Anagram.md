@@ -21,7 +21,7 @@ Constraints:
 
 s and t consist of lowercase English letters.
 
-
+```go
 func isAnagram(s string, t string) bool {
 	if len(s) != len(t) {
 		return false
@@ -50,3 +50,4 @@ func isAnagram(s string, t string) bool {
 
 	return true
 }
+```
