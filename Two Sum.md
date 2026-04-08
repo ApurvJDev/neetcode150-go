@@ -28,6 +28,7 @@ Input: nums = [5,5], target = 10
 
 Output: [0,1]
 
+```go
 func twoSum(nums []int, target int) []int {
     myMap := make(map[int]int)
 
@@ -43,3 +44,4 @@ func twoSum(nums []int, target int) []int {
 
 	return nil
 }
+```
