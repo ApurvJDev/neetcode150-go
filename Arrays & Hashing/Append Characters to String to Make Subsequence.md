@@ -26,7 +26,7 @@ Constraints:
 1 <= s.length, t.length <= 100,000
 s and t consist of lowercase English letters.
 
-#Go
+# Go
 ```go
 func appendCharacters(s string, t string) int {
     i, j := 0, 0
@@ -45,7 +45,7 @@ func appendCharacters(s string, t string) int {
 	return len(t) - j
 }
 ```
-#C++
+# C++
 ```cpp
 class Solution {
 public:
