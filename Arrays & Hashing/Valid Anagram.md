@@ -21,6 +21,7 @@ Constraints:
 
 s and t consist of lowercase English letters.
 
+# Go
 ```go
 func isAnagram(s string, t string) bool {
 	if len(s) != len(t) {
@@ -50,4 +51,35 @@ func isAnagram(s string, t string) bool {
 
 	return true
 }
+```
+
+# Cpp
+```
+bool isAnagram(string s, string t) {
+        unordered_map<char, int> sMap;
+        unordered_map<char, int> tMap;
+
+        for(char c : s) {
+            sMap[c] += 1;
+        }
+        for(char c : t) {
+            tMap[c] += 1;
+        }
+        
+        if(sMap.size() != tMap.size()) {
+            return false;
+        }
+
+        for(const auto& [key, value] : sMap) {
+            if (tMap.contains(key)) {
+                if(tMap[key] != sMap[key]) {
+                    return false;
+                }
+            }
+            else {
+                return false;
+            }
+        }
+        return true;
+    }
 ```
