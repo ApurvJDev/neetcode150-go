@@ -69,6 +69,7 @@ func maxNum (a, b int) int {
 ```
 
 # Cpp
+* [Cpp code](./code/replace_elements.cpp)
 ```cpp
 class Solution {
 public:
