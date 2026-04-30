@@ -19,6 +19,7 @@ Input: nums = [22,21,20,1]
 
 Output: [22,21,20,1,22,21,20,1]
 # Go
+* [Go code](./code/get_concatenation.go)
 ```go
 func getConcatenation(nums []int) []int {
     size := len(nums)
@@ -34,6 +35,7 @@ func getConcatenation(nums []int) []int {
 ```
 
 # Cpp
+* [Cpp code](./code/get_concatenation.cpp)
 ```cpp
 class Solution {
 public:
