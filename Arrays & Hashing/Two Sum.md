@@ -29,7 +29,7 @@ Input: nums = [5,5], target = 10
 Output: [0,1]
 
 # Go
-* [Go coe](./code/two_sum.go)
+* [Go code](./code/two_sum.go)
 ```go
 func twoSum(nums []int, target int) []int {
     myMap := make(map[int]int)
