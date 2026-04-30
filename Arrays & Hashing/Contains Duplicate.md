@@ -12,6 +12,7 @@ Input: nums = [1, 2, 3, 4]
 
 Output: false
 
+# Go
 map[int]int approach:
 ```go
 func hasDuplicate(nums []int) bool {
@@ -44,4 +45,24 @@ func hasDuplicate(nums []int) bool {
 
     return false
 }
+```
+
+# Cpp
+```cpp
+class Solution {
+public:
+    bool hasDuplicate(vector<int>& nums) {
+        unordered_map<int, bool> m;
+        
+        for(int num : nums) {
+            if(m[num]) {
+
+                return true;
+            }
+            m[num] = true;
+        }
+
+        return false;
+    }
+};
 ```
