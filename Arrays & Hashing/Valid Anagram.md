@@ -22,6 +22,7 @@ Constraints:
 s and t consist of lowercase English letters.
 
 # Go
+* [Go code](./code/valid_anagram.go)
 ```go
 func isAnagram(s string, t string) bool {
 	if len(s) != len(t) {
@@ -54,7 +55,7 @@ func isAnagram(s string, t string) bool {
 ```
 
 # Cpp
-*   [View C++ Solution](./code/contains_duplicate.cpp)
+*   [Cpp code](./code/valid_anagram.cpp)
 
 ```cpp
 class Solution {
