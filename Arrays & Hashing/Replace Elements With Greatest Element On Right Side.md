@@ -16,7 +16,9 @@ Constraints:
 1 <= arr.length <= 10,000
 1 <= arr[i] <= 100,000
 
-O (n ^ 2)
+# Go
+* [Go code](./code/replace_elements.go)
+### O (n ^ 2)
 ```go
 func maxInt(a, b int) int {
 	if a > b {
@@ -41,8 +43,7 @@ func replaceElements(arr []int) []int {
 	return arr
 }
 ```
-O(n):
-
+### O(n):
 ```go
 func replaceElements(arr []int) []int {
 	size := len(arr)
