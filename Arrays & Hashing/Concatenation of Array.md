@@ -18,6 +18,7 @@ Example 2:
 Input: nums = [22,21,20,1]
 
 Output: [22,21,20,1,22,21,20,1]
+# Go
 ```go
 func getConcatenation(nums []int) []int {
     size := len(nums)
@@ -30,4 +31,22 @@ func getConcatenation(nums []int) []int {
 
 	return result
 }
+```
+
+# Cpp
+```cpp
+class Solution {
+public:
+    vector<int> getConcatenation(vector<int>& nums) {
+        int n = nums.size();
+        vector<int> res(2 * n);
+
+        for (int i = 0; i < n; i++) {
+            res[i] = nums[i];
+            res[i + n] = nums[i];
+        }
+
+        return res;
+    }
+};
 ```
