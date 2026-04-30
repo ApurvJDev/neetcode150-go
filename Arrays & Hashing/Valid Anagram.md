@@ -54,6 +54,4 @@ func isAnagram(s string, t string) bool {
 ```
 
 # Cpp
-```cpp
-- [View C++ Solution](./code/valid_anagram.cpp)
-```
+*   [View C++ Solution](./code/contains_duplicate.cpp)
