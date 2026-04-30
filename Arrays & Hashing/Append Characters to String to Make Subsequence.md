@@ -27,6 +27,7 @@ Constraints:
 s and t consist of lowercase English letters.
 
 # Go
+* [Go code](./code/append_characters.go)
 ```go
 func appendCharacters(s string, t string) int {
     i, j := 0, 0
