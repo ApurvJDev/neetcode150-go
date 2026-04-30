@@ -9,9 +9,10 @@ Example 2:
 Input: s = "axc", t = "ahbgdc"
 Output: false
 
-* [Go code](./code/is_subsequence.go)
+
 # Go
-O(n^2)
+* [Go code](./code/is_subsequence.go)
+### O(n^2)
 ```go
 func isSubsequence(s string, t string) bool {
 	left := 0
@@ -31,7 +32,7 @@ func isSubsequence(s string, t string) bool {
 	return true
 }
 ```
-O(n) 2 pointer
+### O(n) 2 pointer
 ```go
 func isSubsequence(s string, t string) bool {
 	i, j := 0, 0
