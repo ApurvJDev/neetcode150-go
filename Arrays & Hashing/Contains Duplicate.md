@@ -13,6 +13,7 @@ Input: nums = [1, 2, 3, 4]
 Output: false
 
 # Go
+* [Go code](./code/has_duplicate.go)
 map[int]int approach:
 ```go
 func hasDuplicate(nums []int) bool {
@@ -48,6 +49,7 @@ func hasDuplicate(nums []int) bool {
 ```
 
 # Cpp
+* [Cpp code](./code/has_duplicate.cpp)
 ```cpp
 class Solution {
 public:
