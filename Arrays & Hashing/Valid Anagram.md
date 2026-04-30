@@ -54,7 +54,7 @@ func isAnagram(s string, t string) bool {
 ```
 
 # Cpp
-```
+```cpp
 bool isAnagram(string s, string t) {
         unordered_map<char, int> sMap;
         unordered_map<char, int> tMap;
